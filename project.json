@@ -1,0 +1,7 @@
+{
+  "name": "alexa",
+  "description": "Aros Alexa Skills",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::927407155283:role/alexa-aros"
+}

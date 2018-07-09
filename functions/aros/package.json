@@ -1,0 +1,24 @@
+{
+  "name": "alexa-aros",
+  "version": "0.1.0",
+  "description": "Aros Alexa Skill",
+  "dependencies": {
+    "alexa-app": "^4.0.1",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "express": "^4.14.0",
+    "supertest": "^2.0.1",
+    "chai": "^3.4.1"
+  },
+  "scripts": {
+    "test": "mocha __tests__ --timeout 10000",
+    "test-watch": "mocha __tests__ --watch --timeout 10000",
+    "skills": "node skills.js",
+    "deploy": "apex deploy -C ../../ -E env.json --region eu-west-1"
+  },
+  "author": "Tiago Almeida (ta@hellofresh.com)",
+  "license": "MIT"
+}
