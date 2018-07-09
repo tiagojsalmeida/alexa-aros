@@ -1,2 +1,2 @@
-# alexa-antarctic-weather
-Antarctic Weather Alexa Skill
+# alexa-aros
+Aros Alexa Skill
